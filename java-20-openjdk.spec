@@ -32,7 +32,7 @@
 %define vercode %(if [ "%{minor}" = "0.0" ]; then echo -n %{major}; else echo -n %{ver}; fi)
 
 Name:		java-20-openjdk
-Version:	20.0.1.%{subminor}
+Version:	20.0.2.%{subminor}
 Release:	1
 Summary:	Java Runtime Environment (JRE) %{major}
 Group:		Development/Languages
